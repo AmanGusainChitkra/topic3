@@ -1,0 +1,42 @@
+body {
+  background-image: url("bg.jpg");
+  background-size:100%;
+}
+  
+  h1 {
+  color: rgb(9, 63, 80);
+  margin-top: 200px;
+  text-align: center;  }
+
+  h2 {
+    margin-left: 30px;
+  }
+  
+  p {
+  font-family: verdana;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.strip{
+    background-color:   aqua;
+    display: inline-block;
+    border-left: 10px solid rgb(71, 167, 227);
+    word-wrap: normal;
+    border-radius: 10px;
+}
+.strip2{
+  margin-left: 50px;
+  font-size: 19px;
+  background-color: rgb(51, 149, 225);
+  border-radius: 10px;
+  display: inline-block;
+
+}
+th, td {
+  border: 2px solid black
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
